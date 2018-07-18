@@ -4,7 +4,7 @@ var selectedColor;
     function button_click() {
          document.getElementById("AddHere").innerHTML = "YOU CAN DO IT!";
         selectedColor = colors[i];
-        document.getElementById("box").style.background= selectedColor;
+        document.getElementById("box1").style.background= selectedColor;
         i++;
         if(i > colors.length)
             i = 0;
